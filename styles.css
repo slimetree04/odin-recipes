@@ -1,0 +1,48 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(20, 20, 30);
+    color: rgb(200, 200, 200);
+}
+
+body {
+    margin: 50px;
+}
+
+a {
+    color: rgb(20, 180 , 160);
+    margin: 5px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.title {
+    text-align: center;
+}
+
+.chicken-and-broccoli-recipe-content, .carnitas-tacos-recipe-content, .one-pot-spaghetti-recipe-content  {
+    
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.chicken-and-broccoli-recipe-content {
+    border: 5px groove #fd6868;
+}
+
+.carnitas-tacos-recipe-content  {
+    border: 5px double rgb(253, 183, 104)
+}
+
+.one-pot-spaghetti-recipe-content {
+    border: 3px dashed rgba(255, 141, 141, 0.712)
+}
+
+#chicken-and-broccoli-img, #one-pot-spaghetti-img, #carnitas-tacos-img  {
+    width: 500px;
+    height: auto;
+}
+
+.food-image {
+    display: block;
+    margin: 0 auto;
+}
